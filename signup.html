@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/signupstyle.css" />
+
+</head>
+<body>
+    <div>
+        <form name="my-form" action="_self" method="get" class="form">
+          <h1>Sign Up</h1>
+        <div class="form__row">
+          <label for="name">Email ID<br></label>
+          <input placeholder=" Enter Email"class="field" type="email" name="name" id="email" required />
+        </div>
+        <div class="form__row">
+          <label for="email">Password<br> </label>
+          <input class="field" placeholder="Enter Password" type="password" name="email" id="password" required />
+        </div>
+          <div class="form__row">
+          <label for="name">Confirm Password<br></label>
+          <input placeholder=" Enter Email"class="field" type="text" name="name" id="passwordconf" required />
+        </div>
+        <div class="form__row">
+          <input  class="fbut"type="submit" value="Sign up" onclick="SignUp(event)"/>
+        </div>
+          
+      </form>
+      
+      </div>
+      <script src="js/scrip.js"></script>
+</body>
+</html>
